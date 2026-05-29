@@ -78,6 +78,11 @@ O objetivo do projeto é demonstrar a aplicação prática de padrões de projet
 
 ---
 
+# Diagrama UML
+<img width="660" height="567" alt="image" src="https://github.com/user-attachments/assets/3e0acad2-a678-4589-9ad4-e469fa28a5ef" />
+
+--
+
 # Integrantes
 
 - Felipe Arosti - 839913
