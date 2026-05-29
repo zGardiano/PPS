@@ -1,38 +1,85 @@
-# ToDo List em Java - Padrões de Projeto
+# PPS - Sistema de Gerenciamento de Tarefas
 
-Projeto simples e didático em Java puro para demonstrar três padrões de projeto em um sistema de gerenciamento de tarefas.
+Aplicação Java desenvolvida para a disciplina de Padrões de Projeto de Software, utilizando conceitos de Programação Orientada a Objetos e padrões de projeto aplicados em um sistema de gerenciamento de tarefas (ToDo List).
+
+---
+
+# Funcionalidades
+
+- Adicionar tarefas
+- Definir prioridade
+- Marcar tarefas como concluídas
+- Listar tarefas
+- Ordenar tarefas de diferentes formas
+- Interface gráfica com Java Swing
+
+---
+
+# Padrões de Projeto Utilizados
+
+## Singleton
+Utilizado na classe `TaskManager`, garantindo uma única instância responsável pelo gerenciamento das tarefas.
+
+## Factory Method
+Utilizado na classe `TaskFactory`, centralizando a criação e validação dos objetos `Task`.
+
+## Strategy
+Utilizado para permitir diferentes formas de ordenação das tarefas:
+
+- `SortByName`
+- `SortByPriority`
+- `SortByStatus`
+
+---
+
+# Estrutura do Projeto
+
+```text
+src/
+│
+├── app/
+├── factory/
+├── gui/
+├── model/
+├── singleton/
+└── strategy/
+```
+
+---
+
+# Tecnologias Utilizadas
+
+- Java
+- Java Swing
+- Programação Orientada a Objetos
+- GitHub
+
+---
+
+# Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/zGardiano/PPS.git
+```
+
+Abra o projeto em uma IDE Java e execute:
+
+```text
+Main.java
+```
+
+---
+
+# Objetivo do Trabalho
+
+O objetivo do projeto é demonstrar a aplicação prática de padrões de projeto em uma aplicação Java funcional, utilizando boas práticas de organização e desenvolvimento orientado a objetos.
+
+---
 
 # Integrantes
 
-Felipe Arosti - 839913
-João Gardiano - 839588
-Leone Carpine - 840588
-
-## Objetivo
-
-O sistema foi feito para ser fácil de entender e apresentar em sala. Ele usa apenas console, sem banco de dados e sem frameworks.
-
-## Padrões aplicados
-
-### Singleton
-A classe `TaskManager` controla todas as tarefas da aplicação e possui apenas uma instância.
-
-### Factory Method
-A classe `TaskFactory` cria objetos `Task` sem que a classe principal precise usar `new Task()` diretamente.
-
-### Strategy
-A interface `SortStrategy` permite trocar a forma de ordenação das tarefas em tempo de execução.
-
-Estratégias implementadas:
-- `SortByPriority` - ordena por prioridade
-- `SortByName` - ordena por nome
-- `SortByStatus` - ordena por status
-
-## Funcionalidades
-
-- Adicionar tarefas
-- Listar tarefas
-- Marcar tarefas como concluídas
-- Excluir tarefas
-- Definir prioridade da tarefa
-- Ordenar tarefas por prioridade, nome ou status
+- Felipe Arosti - 839913
+- João Gardiano - 839588
+- Leone Carpine - 840588
