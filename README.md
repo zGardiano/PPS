@@ -81,8 +81,7 @@ O objetivo do projeto é demonstrar a aplicação prática de padrões de projet
 # Diagrama UML
 <img width="1250" height="1058" alt="image" src="https://github.com/user-attachments/assets/eb91e765-f2a0-40c3-bcc3-74e89428e737" />
 
-
---
+---
 
 # Integrantes
 
